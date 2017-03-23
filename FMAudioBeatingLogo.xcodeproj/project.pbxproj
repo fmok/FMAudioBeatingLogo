@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845DF9561E83762000A65D43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF9551E83762000A65D43 /* main.m */; };
+		845DF9591E83762000A65D43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF9581E83762000A65D43 /* AppDelegate.m */; };
+		845DF95C1E83762000A65D43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF95B1E83762000A65D43 /* ViewController.m */; };
+		845DF95F1E83762100A65D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DF95D1E83762100A65D43 /* Main.storyboard */; };
+		845DF9621E83762100A65D43 /* FMAudioBeatingLogo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845DF9601E83762100A65D43 /* FMAudioBeatingLogo.xcdatamodeld */; };
+		845DF9641E83762100A65D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845DF9631E83762100A65D43 /* Assets.xcassets */; };
+		845DF9671E83762200A65D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DF9651E83762200A65D43 /* LaunchScreen.storyboard */; };
+		845DF9721E83762300A65D43 /* FMAudioBeatingLogoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF9711E83762300A65D43 /* FMAudioBeatingLogoTests.m */; };
+		845DF97D1E83762300A65D43 /* FMAudioBeatingLogoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF97C1E83762300A65D43 /* FMAudioBeatingLogoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845DF96E1E83762200A65D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845DF9491E83761E00A65D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845DF9501E83761F00A65D43;
+			remoteInfo = FMAudioBeatingLogo;
+		};
+		845DF9791E83762300A65D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845DF9491E83761E00A65D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845DF9501E83761F00A65D43;
+			remoteInfo = FMAudioBeatingLogo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		845DF9511E83761F00A65D43 /* FMAudioBeatingLogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMAudioBeatingLogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845DF9551E83762000A65D43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845DF9571E83762000A65D43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845DF9581E83762000A65D43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845DF95A1E83762000A65D43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		845DF95B1E83762000A65D43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845DF95E1E83762100A65D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845DF9611E83762100A65D43 /* FMAudioBeatingLogo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FMAudioBeatingLogo.xcdatamodel; sourceTree = "<group>"; };
+		845DF9631E83762100A65D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845DF9661E83762200A65D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845DF9681E83762200A65D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845DF96D1E83762200A65D43 /* FMAudioBeatingLogoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMAudioBeatingLogoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845DF9711E83762300A65D43 /* FMAudioBeatingLogoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAudioBeatingLogoTests.m; sourceTree = "<group>"; };
+		845DF9731E83762300A65D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845DF9781E83762300A65D43 /* FMAudioBeatingLogoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMAudioBeatingLogoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845DF97C1E83762300A65D43 /* FMAudioBeatingLogoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAudioBeatingLogoUITests.m; sourceTree = "<group>"; };
+		845DF97E1E83762300A65D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845DF94E1E83761F00A65D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF96A1E83762200A65D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF9751E83762300A65D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845DF9481E83761E00A65D43 = {
+			isa = PBXGroup;
+			children = (
+				845DF9531E83761F00A65D43 /* FMAudioBeatingLogo */,
+				845DF9701E83762200A65D43 /* FMAudioBeatingLogoTests */,
+				845DF97B1E83762300A65D43 /* FMAudioBeatingLogoUITests */,
+				845DF9521E83761F00A65D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845DF9521E83761F00A65D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845DF9511E83761F00A65D43 /* FMAudioBeatingLogo.app */,
+				845DF96D1E83762200A65D43 /* FMAudioBeatingLogoTests.xctest */,
+				845DF9781E83762300A65D43 /* FMAudioBeatingLogoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845DF9531E83761F00A65D43 /* FMAudioBeatingLogo */ = {
+			isa = PBXGroup;
+			children = (
+				845DF9571E83762000A65D43 /* AppDelegate.h */,
+				845DF9581E83762000A65D43 /* AppDelegate.m */,
+				845DF95A1E83762000A65D43 /* ViewController.h */,
+				845DF95B1E83762000A65D43 /* ViewController.m */,
+				845DF95D1E83762100A65D43 /* Main.storyboard */,
+				845DF9631E83762100A65D43 /* Assets.xcassets */,
+				845DF9651E83762200A65D43 /* LaunchScreen.storyboard */,
+				845DF9681E83762200A65D43 /* Info.plist */,
+				845DF9601E83762100A65D43 /* FMAudioBeatingLogo.xcdatamodeld */,
+				845DF9541E83761F00A65D43 /* Supporting Files */,
+			);
+			path = FMAudioBeatingLogo;
+			sourceTree = "<group>";
+		};
+		845DF9541E83761F00A65D43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845DF9551E83762000A65D43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845DF9701E83762200A65D43 /* FMAudioBeatingLogoTests */ = {
+			isa = PBXGroup;
+			children = (
+				845DF9711E83762300A65D43 /* FMAudioBeatingLogoTests.m */,
+				845DF9731E83762300A65D43 /* Info.plist */,
+			);
+			path = FMAudioBeatingLogoTests;
+			sourceTree = "<group>";
+		};
+		845DF97B1E83762300A65D43 /* FMAudioBeatingLogoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				845DF97C1E83762300A65D43 /* FMAudioBeatingLogoUITests.m */,
+				845DF97E1E83762300A65D43 /* Info.plist */,
+			);
+			path = FMAudioBeatingLogoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845DF9501E83761F00A65D43 /* FMAudioBeatingLogo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845DF9811E83762300A65D43 /* Build configuration list for PBXNativeTarget "FMAudioBeatingLogo" */;
+			buildPhases = (
+				845DF94D1E83761F00A65D43 /* Sources */,
+				845DF94E1E83761F00A65D43 /* Frameworks */,
+				845DF94F1E83761F00A65D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMAudioBeatingLogo;
+			productName = FMAudioBeatingLogo;
+			productReference = 845DF9511E83761F00A65D43 /* FMAudioBeatingLogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845DF96C1E83762200A65D43 /* FMAudioBeatingLogoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845DF9841E83762300A65D43 /* Build configuration list for PBXNativeTarget "FMAudioBeatingLogoTests" */;
+			buildPhases = (
+				845DF9691E83762200A65D43 /* Sources */,
+				845DF96A1E83762200A65D43 /* Frameworks */,
+				845DF96B1E83762200A65D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845DF96F1E83762200A65D43 /* PBXTargetDependency */,
+			);
+			name = FMAudioBeatingLogoTests;
+			productName = FMAudioBeatingLogoTests;
+			productReference = 845DF96D1E83762200A65D43 /* FMAudioBeatingLogoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845DF9771E83762300A65D43 /* FMAudioBeatingLogoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845DF9871E83762300A65D43 /* Build configuration list for PBXNativeTarget "FMAudioBeatingLogoUITests" */;
+			buildPhases = (
+				845DF9741E83762300A65D43 /* Sources */,
+				845DF9751E83762300A65D43 /* Frameworks */,
+				845DF9761E83762300A65D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845DF97A1E83762300A65D43 /* PBXTargetDependency */,
+			);
+			name = FMAudioBeatingLogoUITests;
+			productName = FMAudioBeatingLogoUITests;
+			productReference = 845DF9781E83762300A65D43 /* FMAudioBeatingLogoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845DF9491E83761E00A65D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wangjiuyin;
+				TargetAttributes = {
+					845DF9501E83761F00A65D43 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 538CZ4N2AQ;
+						ProvisioningStyle = Automatic;
+					};
+					845DF96C1E83762200A65D43 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 538CZ4N2AQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 845DF9501E83761F00A65D43;
+					};
+					845DF9771E83762300A65D43 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 538CZ4N2AQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 845DF9501E83761F00A65D43;
+					};
+				};
+			};
+			buildConfigurationList = 845DF94C1E83761E00A65D43 /* Build configuration list for PBXProject "FMAudioBeatingLogo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845DF9481E83761E00A65D43;
+			productRefGroup = 845DF9521E83761F00A65D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845DF9501E83761F00A65D43 /* FMAudioBeatingLogo */,
+				845DF96C1E83762200A65D43 /* FMAudioBeatingLogoTests */,
+				845DF9771E83762300A65D43 /* FMAudioBeatingLogoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845DF94F1E83761F00A65D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF9671E83762200A65D43 /* LaunchScreen.storyboard in Resources */,
+				845DF9641E83762100A65D43 /* Assets.xcassets in Resources */,
+				845DF95F1E83762100A65D43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF96B1E83762200A65D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF9761E83762300A65D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845DF94D1E83761F00A65D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF95C1E83762000A65D43 /* ViewController.m in Sources */,
+				845DF9591E83762000A65D43 /* AppDelegate.m in Sources */,
+				845DF9561E83762000A65D43 /* main.m in Sources */,
+				845DF9621E83762100A65D43 /* FMAudioBeatingLogo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF9691E83762200A65D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF9721E83762300A65D43 /* FMAudioBeatingLogoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF9741E83762300A65D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF97D1E83762300A65D43 /* FMAudioBeatingLogoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845DF96F1E83762200A65D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845DF9501E83761F00A65D43 /* FMAudioBeatingLogo */;
+			targetProxy = 845DF96E1E83762200A65D43 /* PBXContainerItemProxy */;
+		};
+		845DF97A1E83762300A65D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845DF9501E83761F00A65D43 /* FMAudioBeatingLogo */;
+			targetProxy = 845DF9791E83762300A65D43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		845DF95D1E83762100A65D43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845DF95E1E83762100A65D43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845DF9651E83762200A65D43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845DF9661E83762200A65D43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845DF97F1E83762300A65D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845DF9801E83762300A65D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845DF9821E83762300A65D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMAudioBeatingLogo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMAudioBeatingLogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845DF9831E83762300A65D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMAudioBeatingLogo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMAudioBeatingLogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		845DF9851E83762300A65D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMAudioBeatingLogoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMAudioBeatingLogoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMAudioBeatingLogo.app/FMAudioBeatingLogo";
+			};
+			name = Debug;
+		};
+		845DF9861E83762300A65D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMAudioBeatingLogoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMAudioBeatingLogoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMAudioBeatingLogo.app/FMAudioBeatingLogo";
+			};
+			name = Release;
+		};
+		845DF9881E83762300A65D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMAudioBeatingLogoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMAudioBeatingLogoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMAudioBeatingLogo;
+			};
+			name = Debug;
+		};
+		845DF9891E83762300A65D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMAudioBeatingLogoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMAudioBeatingLogoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMAudioBeatingLogo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845DF94C1E83761E00A65D43 /* Build configuration list for PBXProject "FMAudioBeatingLogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DF97F1E83762300A65D43 /* Debug */,
+				845DF9801E83762300A65D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845DF9811E83762300A65D43 /* Build configuration list for PBXNativeTarget "FMAudioBeatingLogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DF9821E83762300A65D43 /* Debug */,
+				845DF9831E83762300A65D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		845DF9841E83762300A65D43 /* Build configuration list for PBXNativeTarget "FMAudioBeatingLogoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DF9851E83762300A65D43 /* Debug */,
+				845DF9861E83762300A65D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		845DF9871E83762300A65D43 /* Build configuration list for PBXNativeTarget "FMAudioBeatingLogoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DF9881E83762300A65D43 /* Debug */,
+				845DF9891E83762300A65D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		845DF9601E83762100A65D43 /* FMAudioBeatingLogo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				845DF9611E83762100A65D43 /* FMAudioBeatingLogo.xcdatamodel */,
+			);
+			currentVersion = 845DF9611E83762100A65D43 /* FMAudioBeatingLogo.xcdatamodel */;
+			path = FMAudioBeatingLogo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 845DF9491E83761E00A65D43 /* Project object */;
+}
