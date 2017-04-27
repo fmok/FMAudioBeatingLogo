@@ -223,12 +223,12 @@
 		845DF9491E83761E00A65D43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = wangjiuyin;
 				TargetAttributes = {
 					845DF9501E83761F00A65D43 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 538CZ4N2AQ;
+						DevelopmentTeam = 7Q57U4NZX7;
 						ProvisioningStyle = Automatic;
 					};
 					845DF96C1E83762200A65D43 = {
@@ -375,6 +375,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -423,6 +424,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -451,7 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				DEVELOPMENT_TEAM = 7Q57U4NZX7;
 				INFOPLIST_FILE = FMAudioBeatingLogo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -464,7 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				DEVELOPMENT_TEAM = 7Q57U4NZX7;
 				INFOPLIST_FILE = FMAudioBeatingLogo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,6 +544,7 @@
 				845DF9831E83762300A65D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845DF9841E83762300A65D43 /* Build configuration list for PBXNativeTarget "FMAudioBeatingLogoTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +553,7 @@
 				845DF9861E83762300A65D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845DF9871E83762300A65D43 /* Build configuration list for PBXNativeTarget "FMAudioBeatingLogoUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +562,7 @@
 				845DF9891E83762300A65D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -124,7 +124,6 @@
     }
 }
 
-#pragma mark - private
 - (void)configureUI {
     NSArray *h = @[@0.6,@1.0,@0.7,@0.9];
     for (int i = 0; i < 4; i ++) {
